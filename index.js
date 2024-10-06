@@ -22,3 +22,11 @@ for(i=0;i<=arr.length; i++){
         console.log(arr[i] + " is not Prime no. :");
     }
 }
+
+for(i=1; i<=5; i++){
+    var bag = "";
+    for(j=1; j<=5; j++){
+        bag += "*" + " ";
+    }
+    console.log(bag);
+}
