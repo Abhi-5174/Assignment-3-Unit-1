@@ -11,18 +11,6 @@ for(i=0;i<=arr.length; i++){
     }
 }
 
-for(i=0;i<=arr.length; i++){
-    var count = 0;
-    for(j=1; j<=arr[i]; j++){
-        if(arr[i]%j==0){
-            count++;
-        }
-    }
-    if(count > 2){
-        console.log(arr[i] + " is not Prime no. :");
-    }
-}
-
 for(i=1; i<=5; i++){
     var bag = "";
     for(j=1; j<=5; j++){
